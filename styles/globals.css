@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Breadcrumb */
+
+.breadCrumbNav {
+    height: 30px;
+    background-color: #fff;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.breadCrumbNav > nav > ol > li > a:hover{
+    color: black !important;
+}
+
+.breadCrumbNav > nav > ol > li > div > a:hover{
+    color: black !important;
+}
+
+/* Page Body */
+
+/* Card Div */
+
+.cardDiv{
+    padding: 40px 20px 40px 20px;
+}
+
+/* Chart Div */
+.chartDiv{
+    padding: 10px 20px 40px 20px;
+}
+
+#chart {
+    max-width: 650px;
+    margin: 35px auto;
+}
